@@ -724,8 +724,8 @@ progress {
 }
 
 .col-auto {
-  flex: 0 0 auto;
-  width: auto;
+   width: 100%;
+  text-align: center;
 }
 
 .col-1 {
@@ -751,6 +751,9 @@ progress {
 .col-5 {
   flex: 0 0 auto;
   width: 41.66666667%;
+}
+.text-justify {
+  text-align: justify;
 }
 
 .col-6 {
