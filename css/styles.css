@@ -147,3 +147,31 @@ footer .text-gold { color: var(--gold); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* Hero ocupa a dobra */
+.hero-full{
+  min-height: 85vh;          /* ocupa 85% da altura da tela */
+  display: flex;
+  align-items: center;        /* centraliza vertical */
+  justify-content: center;    /* centraliza horizontal */
+  padding: 4rem 0;            /* respiro */
+  background: transparent;    /* usa o fundo do body (gradiente) */
+}
+@media (max-width: 992px){
+  .hero-full{ min-height: 70vh; }
+}
+
+/* Corrige texto apagado em listas de pricing */
+.card ul li {
+  color: var(--text) !important;       /* cor clara */
+}
+
+.card ul li strong {
+  color: var(--gold) !important;       /* destaque dourado */
+}
+
+.card ul li i.bi {
+  color: var(--gold) !important;       /* ícones também dourados */
+}
+
+
