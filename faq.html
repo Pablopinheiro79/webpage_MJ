@@ -1,177 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Modern Business - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Perguntas frequentes — MJ Gestão em Saúde" />
+  <meta name="author" content="MJ Gestão em Saúde" />
+  <title>MJ — Perguntas Frequentes (FAQ)</title>
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.jpg">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/icon-512.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon-192.jpg">
+
+  <!-- Bootstrap icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- Bootstrap CSS (adicione antes do styles.css) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Tema Dark + Gold -->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container px-5">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/LOGO MJ.jpg" alt="MJ">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="pricing.html">Valores</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="py-5">
+      <div class="container px-5 my-5">
+        <div class="text-center mb-5">
+          <h1 class="fw-bolder">Perguntas Frequentes</h1>
+          <p class="lead text-muted mb-0">Como podemos ajudar?</p>
+        </div>
+
+        <div class="row gx-5">
+          <div class="col-xl-8">
+            <!-- FAQ Accordion 1 -->
+            <h2 class="fw-bolder mb-3">Conta &amp; Faturamento</h2>
+            <div class="accordion mb-5" id="accordionConta">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="conta1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#conta1c"
+                          aria-expanded="true" aria-controls="conta1c">
+                    Como funciona a taxa de 20%?
+                  </button>
+                </h3>
+                <div id="conta1c" class="accordion-collapse collapse show" aria-labelledby="conta1" data-bs-parent="#accordionConta">
+                  <div class="accordion-body">
+                    A taxa é de <strong>20% sobre o valor bruto</strong> de cada plantão realizado. Não há mensalidade.
+                    Emitimos as notas fiscais e fazemos a conferência dos recebimentos, com total transparência.
+                  </div>
                 </div>
-            </nav>
-            <!-- Page Content-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
-                    <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Frequently Asked Questions</h1>
-                        <p class="lead fw-normal text-muted mb-0">How can we help you?</p>
-                    </div>
-                    <div class="row gx-5">
-                        <div class="col-xl-8">
-                            <!-- FAQ Accordion 1-->
-                            <h2 class="fw-bolder mb-3">Account &amp; Billing</h2>
-                            <div class="accordion mb-5" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong>
-                                            It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>
-                                            , though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Accordion Item #2</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the second item's accordion body.</strong>
-                                            It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>
-                                            , though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Accordion Item #3</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong>
-                                            It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>
-                                            , though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Accordion 2-->
-                            <h2 class="fw-bolder mb-3">Website Issues</h2>
-                            <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">Accordion Item #1</button></h3>
-                                    <div class="accordion-collapse collapse show" id="collapseOne2" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong>
-                                            It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>
-                                            , though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">Accordion Item #2</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseTwo2" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <strong>This is the second item's accordion body.</strong>
-                                            It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>
-                                            , though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">Accordion Item #3</button></h3>
-                                    <div class="accordion-collapse collapse" id="collapseThree2" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
-                                        <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong>
-                                            It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                                            <code>.accordion-body</code>
-                                            , though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4">
-                            <div class="card border-0 bg-light mt-xl-5">
-                                <div class="card-body p-4 py-lg-5">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <div class="text-center">
-                                            <div class="h6 fw-bolder">Have more questions?</div>
-                                            <p class="text-muted mb-4">
-                                                Contact us at
-                                                <br />
-                                                <a href="#!">support@domain.com</a>
-                                            </p>
-                                            <div class="h6 fw-bolder">Follow us</div>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-facebook"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-linkedin"></i></a>
-                                            <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-youtube"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="conta2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conta2c"
+                          aria-expanded="false" aria-controls="conta2c">
+                    Quem emite a nota fiscal?
+                  </button>
+                </h3>
+                <div id="conta2c" class="accordion-collapse collapse" aria-labelledby="conta2" data-bs-parent="#accordionConta">
+                  <div class="accordion-body">
+                    A <strong>MJ</strong> realiza a emissão das notas fiscais de serviços em nome da empresa, garantindo
+                    conformidade com as exigências dos órgãos públicos e dos editais municipais.
+                  </div>
                 </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
-                    </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="conta3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conta3c"
+                          aria-expanded="false" aria-controls="conta3c">
+                    Em quanto tempo recebo após o plantão?
+                  </button>
+                </h3>
+                <div id="conta3c" class="accordion-collapse collapse" aria-labelledby="conta3" data-bs-parent="#accordionConta">
+                  <div class="accordion-body">
+                    O prazo depende do contrato do município/organização. A MJ acompanha o fluxo e notifica eventuais atrasos,
+                    mantendo você informado sobre cada etapa até o repasse.
+                  </div>
                 </div>
+              </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+
+            <!-- FAQ Accordion 2 -->
+            <h2 class="fw-bolder mb-3">Plataforma &amp; Suporte</h2>
+            <div class="accordion mb-5 mb-xl-0" id="accordionSuporte">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="sup1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sup1c"
+                          aria-expanded="true" aria-controls="sup1c">
+                    Como entro em contato com o suporte?
+                  </button>
+                </h3>
+                <div id="sup1c" class="accordion-collapse collapse show" aria-labelledby="sup1" data-bs-parent="#accordionSuporte">
+                  <div class="accordion-body">
+                    Você pode enviar e-mail para <a href="mailto:mjgestaoemsaude@gmail.com">mjgestaoemsaude@gmail.com</a> ou falar
+                    no WhatsApp <a href="https://wa.me/5521988292162" target="_blank" rel="noopener">(+55 21) 98829-2162</a>.
+                    Atendimento de segunda a sexta, 9h às 18h.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="sup2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup2c"
+                          aria-expanded="false" aria-controls="sup2c">
+                    Como a MJ protege meus dados?
+                  </button>
+                </h3>
+                <div id="sup2c" class="accordion-collapse collapse" aria-labelledby="sup2" data-bs-parent="#accordionSuporte">
+                  <div class="accordion-body">
+                    Aplicamos boas práticas de segurança da informação: controle de acesso, criptografia em trânsito (HTTPS),
+                    políticas de minimização de dados e aderência à <strong>LGPD</strong>. Solicitações de
+                    correção/eliminação de dados podem ser feitas pelo contato oficial.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="sup3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sup3c"
+                          aria-expanded="false" aria-controls="sup3c">
+                    Posso alterar meus dados cadastrais?
+                  </button>
+                </h3>
+                <div id="sup3c" class="accordion-collapse collapse" aria-labelledby="sup3" data-bs-parent="#accordionSuporte">
+                  <div class="accordion-body">
+                    Sim. Solicite a atualização pelo e-mail ou WhatsApp informados, e nossa equipe realiza a verificação e
+                    a alteração com segurança.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar contato/Redes -->
+          <div class="col-xl-4">
+            <div class="card border-0 bg-light mt-xl-5">
+              <div class="card-body p-4 py-lg-5">
+                <div class="d-flex align-items-center justify-content-center">
+                  <div class="text-center">
+                    <div class="h6 fw-bolder">Ficou com dúvidas?</div>
+                    <p class="text-muted mb-4">
+                      Fale com a gente:<br />
+                      <a href="mailto:mjgestaoemsaude@gmail.com">mjgestaoemsaude@gmail.com</a>
+                    </p>
+                    <div class="h6 fw-bolder">Acompanhe</div>
+                    <a class="fs-5 px-2 link-dark" href="#!" aria-label="Twitter"><i class="bi-twitter"></i></a>
+                    <a class="fs-5 px-2 link-dark" href="#!" aria-label="Facebook"><i class="bi-facebook"></i></a>
+                    <a class="fs-5 px-2 link-dark" href="#!" aria-label="LinkedIn"><i class="bi-linkedin"></i></a>
+                    <a class="fs-5 px-2 link-dark" href="#!" aria-label="YouTube"><i class="bi-youtube"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Sidebar -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="col-auto"><div class="small m-0 text-gold">Copyright © MJ 2025</div></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
