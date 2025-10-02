@@ -174,4 +174,34 @@ footer .text-gold { color: var(--gold); }
   color: var(--gold) !important;       /* ícones também dourados */
 }
 
+/* Alerta destaque na home */
+.alerta-destaque {
+  background: linear-gradient(90deg, rgba(212,175,55,0.15), rgba(212,175,55,0.3));
+  border: 1px solid var(--gold-dark);
+  color: var(--gold);
+  font-weight: 600;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+
+//* Ícones do alerta */
+.alerta-destaque .robozinho {
+  font-size: 1.4rem;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  color: var(--gold);
+  opacity: 0.85;
+}
+
+.alerta-destaque .celular {
+  font-size: 1.8rem;   /* maior que o robozinho */
+  margin-right: 0.6rem;
+  vertical-align: middle;
+  color: var(--gold);
+  text-shadow: 0 0 6px rgba(212,175,55,.4);
+}
+
+
+
 
